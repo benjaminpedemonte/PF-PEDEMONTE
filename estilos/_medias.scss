@@ -1,0 +1,25 @@
+// Variables
+
+$color_1: black;
+$color_2: #fafafa;
+
+$font-family_1: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+@mixin inicios{
+    background-image: linear-gradient(rgba(18, 17, 17, 0.209), rgba(18, 17, 17, 0.209)), url(./IMG/pexels-karolina-grabowska-4207729.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative; 
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    justify-content: space-between;
+}
+
+@mixin carusel{
+    width: 80%;
+    height: 80%;
+    left: 10.1%;
+}
+
+
